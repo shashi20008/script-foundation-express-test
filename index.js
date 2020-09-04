@@ -19,4 +19,4 @@ app.get('*', function(req, res) {
   res.send('Not Found!');
 });
 
-app.listen(7000);
+app.listen(process.env.PORT || 7000);
